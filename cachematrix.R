@@ -28,7 +28,7 @@ makeCacheMatrix <- function(x = matrix()) {
     m <- x
     
     ## reset the cached inverse variable
-    inverse <<- NULL
+    inverse <- NULL
     
     # function to get the matrix
     getmatrix <- function() m
